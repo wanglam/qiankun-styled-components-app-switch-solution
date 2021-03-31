@@ -1,0 +1,30 @@
+{
+  "name": "qiankun-styled-components-app-switch-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"run-p start:*",
+    "start:main":"parcel index.html  --no-cache",
+    "start:app1":"parcel app1.html --port 1111 --global app1 --no-cache",
+    "start:app2":"parcel app2.html --port 2222 --global app2 --no-cache",
+    "start:app3":"parcel app3.html --port 3333 --global app3 --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qiankun": "^2.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/styled-components": "^5.1.9",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.3"
+  }
+}
